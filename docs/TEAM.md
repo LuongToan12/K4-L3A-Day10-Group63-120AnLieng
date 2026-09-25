@@ -28,14 +28,14 @@
 - **Điều học được / Đóng góp chính:**
   - Hiểu sâu sắc về thiết kế Data Pipeline chuẩn hóa, quản lý Data Lineage và bảo toàn snapshot thô ban đầu để phục vụ khôi phục hệ thống khi xảy ra sự cố.
 
-### ## DaoNgocBinhThien
+### ## DaoNgocBinhThien-2A2026021814
 - **Vai trò:** Data Observability & Corruption Specialist.
 - **Công việc chi tiết đã hoàn thành:**
-  - Triển khai Data Quality Gate bằng Great Expectations 1.x Ephemeral Context với 4 Expectations cốt lõi trong `src/observability/quality.py`.
-  - Cài đặt hệ thống giám sát Freshness SLA (`age_days > 180`) và xuất báo cáo `data/quality/freshness_report.json`.
-  - Xây dựng 6 kịch bản tiêm lỗi dữ liệu thực tế trong `src/ingestion/corruption.py` và ghi nhật ký vào `data/results/corruption_log.json`.
+  - Thiết lập Data Quality Gate bằng Great Expectations 1.x chuẩn Ephemeral Context với 4 Expectations cốt lõi trong `src/observability/quality.py`.
+  - Cài đặt hệ thống giám sát độ tươi Freshness SLA (`age_days > 180`) và xuất báo cáo `data/quality/freshness_report.json`.
+  - Xây dựng bộ giả lập sự cố với 6 dạng tiêm lỗi dữ liệu thực tế trong `src/ingestion/corruption.py` và ghi nhật ký vào `data/results/corruption_log.json`.
 - **Điều học được / Đóng góp chính:**
-  - Nắm vững cách ngăn chặn lỗi Silent Failure bằng các chốt kiểm dịch tự động trước khi nạp dữ liệu vào Vector Database.
+  - Hiểu rõ cơ chế ngăn chặn hiện tượng Silent Failure của AI bằng các chốt kiểm dịch dữ liệu tự động trước khi nạp vào Vector Store.
 
 ### ## HuyLuong
 - **Vai trò:** Evaluation, Repair & Reporting Lead.
