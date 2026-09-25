@@ -4,8 +4,8 @@
 
 | Thông tin         | Nội dung                                                                 |
 | ----------------- | ------------------------------------------------------------------------ |
-| Họ và tên         | Lương Huy (Huy Lương)                                                    |
-| MSSV              | [Điền MSSV]                                                              |
+| Họ và tên         | Lương Quang Huy                                                          |
+| MSSV              | 2A202602698                                                              |
 | Khóa/Lớp          | AI-ENGINEER-K4                                                           |
 | Tên nhóm          | Group 63 (120AnLieng)                                                    |
 | Vai trò chính     | **Thành viên 3: Evaluation, Repair & Reporting Lead**                    |
@@ -142,5 +142,5 @@
 - [x] Báo cáo không chứa `.env`, API key, token hoặc secret.
 - [x] Báo cáo này không phải bản sao nguyên văn của báo cáo nhóm hoặc báo cáo thành viên khác.
 
-**Họ và tên:** Lương Huy  
+**Họ và tên:** Lương Quang Huy  
 **Ngày xác nhận:** 2026-09-25

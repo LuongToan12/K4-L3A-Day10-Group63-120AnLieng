@@ -15,7 +15,7 @@
 | --: | --- | --- | --- | --- |
 | 1 | Lương Khánh Toàn | [Điền MSSV] | **Pipeline Lead & Data Ingestion** | `src/ingestion/crossref.py`, `src/ingestion/cleaning.py`, `src/pipelines/phase1.py`, `script/run_phase1.py` |
 | 2 | Đào Ngọc Bình Thiên | 2A2026021814 | **Data Observability & Corruption Specialist** | `src/observability/quality.py`, `src/ingestion/corruption.py`, `data/quality/*` |
-| 3 | Lương Huy | [Điền MSSV] | **Evaluation, Repair & Reporting Lead** | `src/evaluation/testset.py`, `src/observability/reporting.py`, `src/pipelines/corruption_flow.py`, `script/run_corruption_flow.py` |
+| 3 | Lương Quang Huy | 2A202602698 | **Evaluation, Repair & Reporting Lead** | `src/evaluation/testset.py`, `src/observability/reporting.py`, `src/pipelines/corruption_flow.py`, `script/run_corruption_flow.py` |
 
 ---
 

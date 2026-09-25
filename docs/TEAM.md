@@ -12,7 +12,7 @@
 |---:|---|---|---|---|---|
 | 1 | Lương Khánh Toàn | [Điền MSSV] | toanluong120904@gmail.com | **Pipeline Lead & Ingestion**: Cấu hình môi trường, Ingestion (`crossref.py`), Data Cleaning (`cleaning.py`), Pipeline Phase 1 (`phase1.py`, `run_phase1.py`). | `report/LuongKhanhToan.md` |
 | 2 | Đào Ngọc Bình Thiên | 2A2026021814 | thiendao103@gmail.com | **Data Observability & Corruption Specialist**: Great Expectations 1.x (`quality.py`), Freshness SLA, Tiêm 6 dạng lỗi dữ liệu (`corruption.py`). | `report/2A202602814_DaoNgocBinhThien.md` |
-| 3 | Lương Huy | [Điền MSSV] | huyluong1910@gmail.com | **Evaluation, Repair & Reporting Lead**: Sinh test set 30 câu (`testset.py`), Luồng Idempotent Repair (`corruption_flow.py`), Xuất báo cáo đối chiếu 3 trạng thái (`reporting.py`). | `report/HuyLuong.md` |
+| 3 | Lương Quang Huy | 2A202602698 | huyluong1910@gmail.com | **Evaluation, Repair & Reporting Lead**: Sinh test set 30 câu (`testset.py`), Luồng Idempotent Repair (`corruption_flow.py`), Xuất báo cáo đối chiếu 3 trạng thái (`reporting.py`). | `report/2A202602698_LuongQuangHuy.md` |
 
 ---
 
@@ -37,7 +37,7 @@
 - **Điều học được / Đóng góp chính:**
   - Hiểu rõ cơ chế ngăn chặn hiện tượng Silent Failure của AI bằng các chốt kiểm dịch dữ liệu tự động trước khi nạp vào Vector Store.
 
-### ## HuyLuong
+### ## LuongQuangHuy-2A202602698
 - **Vai trò:** Evaluation, Repair & Reporting Lead.
 - **Công việc chi tiết đã hoàn thành:**
   - Xây dựng bộ benchmark 30 câu hỏi đa dạng và bao phủ các edge cases qua 4 nhóm nghiệp vụ (`summary`, `authors`, `date`, `categories`) trong `src/evaluation/testset.py`.
