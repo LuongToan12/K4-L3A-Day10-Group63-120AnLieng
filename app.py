@@ -115,17 +115,17 @@ with col_t3:
 st.markdown("---")
 
 # Load artifacts
-baseline_metrics = load_json_safe(settings.paths.results_dir / "baseline_metrics.json")
-corrupted_metrics = load_json_safe(settings.paths.corrupted_metrics_json)
-repaired_metrics = load_json_safe(settings.paths.repaired_metrics_json)
-corruption_log = load_json_safe(settings.paths.corruption_log_json)
+baseline_metrics = load_json_safe(settings.paths.baseline_metrics)
+corrupted_metrics = load_json_safe(settings.paths.corrupted_metrics)
+repaired_metrics = load_json_safe(settings.paths.repaired_metrics)
+corruption_log = load_json_safe(settings.paths.corruption_log)
 
-gx_baseline = load_json_safe(settings.paths.baseline_quality_report_json)
-gx_corrupted = load_json_safe(settings.paths.corrupted_quality_report_json)
-gx_repaired = load_json_safe(settings.paths.repaired_quality_report_json)
-freshness_report = load_json_safe(settings.paths.freshness_report_json)
+gx_baseline = load_json_safe(settings.paths.baseline_quality_report)
+gx_corrupted = load_json_safe(settings.paths.corrupted_quality_report)
+gx_repaired = load_json_safe(settings.paths.quality_dir / "repaired_quality_report.json")
+freshness_report = load_json_safe(settings.paths.freshness_report)
 
-test_set = load_json_safe(settings.paths.eval_dir / "test_set.json")
+test_set = load_json_safe(settings.paths.eval_testset)
 
 # Main Tabs
 tab1, tab2, tab3, tab4 = st.tabs(
