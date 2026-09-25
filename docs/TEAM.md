@@ -10,7 +10,7 @@
 
 | STT | Họ và tên | MSSV | Email | Vai trò & Phân công công việc | Báo cáo cá nhân |
 |---:|---|---|---|---|---|
-| 1 | Lương Khánh Toàn | [Điền MSSV] | toanluong120904@gmail.com | **Pipeline Lead & Ingestion**: Cấu hình môi trường, Ingestion (`crossref.py`), Data Cleaning (`cleaning.py`), Pipeline Phase 1 (`phase1.py`, `run_phase1.py`). | `report/LuongKhanhToan.md` |
+| 1 | Lương Khánh Toàn | 2A202602836 | toanluong120904@gmail.com | **Pipeline Lead & Ingestion**: Cấu hình môi trường, Ingestion (`crossref.py`), Data Cleaning (`cleaning.py`), Pipeline Phase 1 (`phase1.py`, `run_phase1.py`). | `report/2A202602836_LuongKhanhToan.md` |
 | 2 | Đào Ngọc Bình Thiên | 2A2026021814 | thiendao103@gmail.com | **Data Observability & Corruption Specialist**: Great Expectations 1.x (`quality.py`), Freshness SLA, Tiêm 6 dạng lỗi dữ liệu (`corruption.py`). | `report/2A202602814_DaoNgocBinhThien.md` |
 | 3 | Lương Quang Huy | 2A202602698 | huyluong1910@gmail.com | **Evaluation, Repair & Reporting Lead**: Sinh test set 30 câu (`testset.py`), Luồng Idempotent Repair (`corruption_flow.py`), Xuất báo cáo đối chiếu 3 trạng thái (`reporting.py`). | `report/2A202602698_LuongQuangHuy.md` |
 
@@ -18,7 +18,7 @@
 
 ## # Cá nhân
 
-### ## LuongKhanhToan
+### ## LuongKhanhToan-2A202602836
 - **Vai trò:** Trưởng nhóm & Pipeline Lead / Data Ingestion.
 - **Công việc chi tiết đã hoàn thành:**
   - Thiết lập môi trường ảo, quản lý cấu hình hệ thống, tạo branch làm việc `LuongToan12`.
