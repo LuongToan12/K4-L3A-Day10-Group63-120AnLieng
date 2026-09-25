@@ -5,7 +5,7 @@
 | Thông tin         | Nội dung                                                        |
 | ----------------- | --------------------------------------------------------------- |
 | Họ và tên        | Lương Khánh Toàn                                                |
-| MSSV              | [Điền MSSV]                                                     |
+| MSSV              | 2A202602836                                                    |
 | Khóa/Lớp          | K4-L3A                                                          |
 | Tên nhóm          | Group63-120AnLieng                                              |
 | Vai trò chính     | Pipeline Lead & Data Ingestion                                  |
