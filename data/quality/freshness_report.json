@@ -1,0 +1,10 @@
+{
+  "total_rows": 24,
+  "stale_rows": 1,
+  "stale_ratio": 0.0417,
+  "freshness_threshold_days": 180,
+  "is_fresh": true,
+  "latest_published": "2026-07-22",
+  "oldest_published": "2026-03-28",
+  "evaluated_at": "2026-09-25T08:25:54.136609+00:00"
+}

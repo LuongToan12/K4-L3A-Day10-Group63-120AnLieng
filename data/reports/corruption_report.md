@@ -9,9 +9,9 @@
 | Metric / Signal | Baseline (Sạch) | Corrupted (Lỗi) | Repaired (Phục hồi) | Tác động do Corruption | Mức độ Phục hồi | Nhận xét chuyên môn |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **`retrieval_hit_rate`** | **1.0000** | **0.7667** | **1.0000** | `-0.2333` | `+0.2333` | Bị rớt mạnh do mất 20% bài mới & cắt ngắn tiêu đề; đã khôi phục hoàn toàn sau repair. |
-| **`mean_token_f1`** | **1.0000** | **0.7683** | **1.0000** | `-0.2317` | `+0.2317` | Sụt giảm nghiêm trọng do tóm tắt bị xóa rỗng và chèn chuỗi ký tự rác. |
-| **`judge_accuracy`** | **1.0000** | **0.8000** | **1.0000** | `-0.2000` | `+0.2000` | AI trả lời sai sự thật (Hallucination) trên dữ liệu bẩn; lấy lại độ chính xác sau khi nạp sạch. |
-| **`mean_judge_score`** | **5.0000** | **3.9333** | **5.0000** | `-1.0667` | `+1.0667` | Điểm đánh giá chất lượng phản hồi từ LLM Judge giảm sâu và hồi phục 100%. |
+| **`mean_token_f1`** | **1.0000** | **0.8785** | **1.0000** | `-0.1215` | `+0.1215` | Sụt giảm nghiêm trọng do tóm tắt bị xóa rỗng và chèn chuỗi ký tự rác. |
+| **`judge_accuracy`** | **1.0000** | **0.9000** | **1.0000** | `-0.1000` | `+0.1000` | AI trả lời sai sự thật (Hallucination) trên dữ liệu bẩn; lấy lại độ chính xác sau khi nạp sạch. |
+| **`mean_judge_score`** | **5.0000** | **4.4000** | **5.0000** | `-0.6000` | `+0.6000` | Điểm đánh giá chất lượng phản hồi từ LLM Judge giảm sâu và hồi phục 100%. |
 | **Quality Gate (GX 1.x)** | **✅ Pass** | **❌ Fail** | **✅ Pass** | Báo động đỏ | Hoàn toàn sạch | Great Expectations phát hiện vi phạm độ dài summary và trùng lặp bản ghi. |
 | **Freshness SLA** | **Fresh ✅** | **Stale ⚠️** | **Fresh ✅** | Vi phạm SLA | Tươi mới trở lại | Bắt được lỗi lùi ngày xuất bản về quá khứ 365 ngày (stale dates). |
 
